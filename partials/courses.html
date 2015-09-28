@@ -1,13 +1,13 @@
-<div ng-show="courses.length">
+<div ng-show="courses.length" class="headding">
   <h2>Here are all your courses:</h2>
     <ul>
-      <li ng-repeat="item in courses">
+      <li ng-repeat="item in courses" class="animated 1 rubberBand">
         <a ui-sref="courses.students({ courseId: item.id })">{{ item.name }}</a>
       </li>
     </ul>
 </div>
 
-<div class="col-md-4">
+<div class="row headding" align="center">
   <h4>Add a new course</h4>
   <form ng-submit="CoursesFactory.addCourse()" class="form-inline" role="form">
     <div class="form-group">
