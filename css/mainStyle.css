@@ -4,7 +4,7 @@
   width: 100%;
   height: 100%;
   padding-left: 2px;
-  margin: 9px;
+  margin-top: 9px;
   box-shadow: 2px 2px #414141;
 
 }
@@ -22,7 +22,7 @@
 .home-page {
   width: 100%;
   height: 100%;
-  margin: 9px;
+  margin-top: 9px;
   border: solid 1px #8AABCC;
   background-color: rgb(224, 216, 237);
   position: absoulte;
@@ -35,11 +35,10 @@ html, body {
 }
 
 .footerz {
-  background-image: url(http://creativity103.com/collections/Paper/canvas_texture.jpg);
+  background-color: rgb(23, 31, 21);
   border: solid 1px #8AABCC;
   width: 100%;
   height: 100%;
   padding: 20px;
-  margin: 9px;
-  box-shadow: 2px 2px #414141;
+  margin-top: 9px;
 }

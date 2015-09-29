@@ -1,4 +1,4 @@
-<div ng-show="course.students.length" class="row headding">
+<div ng-show="course.students.length" class="headding">
   <h2>Student List for {{ course.name }}</h2>
   <ul>
     <li ng-repeat="item in course.students">
@@ -7,7 +7,7 @@
   </ul>
 </div>
 
-<div class=" row headding" align="center">
+<div class="headding" align="center">
   <h3>Add student to {{ course.name }}</h3>
   <form ng-submit="addStudent()" class="form-inline" role="form">
     <div class="form-group">
