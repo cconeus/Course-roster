@@ -10,7 +10,10 @@
 
 .general {
   background-image: url(http://3.bp.blogspot.com/_jFM-Fd8NDFE/TLhmRK1h8AI/AAAAAAAAKcU/NKNPe051PbA/s1600/OldCanvas-5.jpg);
-  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   padding: 4px;
 }
 
@@ -23,7 +26,6 @@
   height: 100%;
   padding: 12px;
   margin-top: 9px;
-  margin-bottom: 250px;
   border: solid 1px #8AABCC;
   background-color: rgb(224, 216, 237);
   position: absoulte;
@@ -39,9 +41,8 @@ html, body {
   background-color: rgb(23, 31, 21);
   border: solid 1px #8AABCC;
   padding: 20px;
-  margin-top: 9px;
   position: fixed;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
 }
