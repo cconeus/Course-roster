@@ -6,7 +6,6 @@
   padding-left: 2px;
   margin-top: 9px;
   box-shadow: 2px 2px #414141;
-
 }
 
 .general {
@@ -22,7 +21,9 @@
 .home-page {
   width: 100%;
   height: 100%;
+  padding: 12px;
   margin-top: 9px;
+  margin-bottom: 250px;
   border: solid 1px #8AABCC;
   background-color: rgb(224, 216, 237);
   position: absoulte;
@@ -30,16 +31,16 @@
 }
 
 html, body {
-  height: 100%;
   width: 100%;
 }
 
 .footerz {
+  height: 175px;
   background-color: rgb(23, 31, 21);
   border: solid 1px #8AABCC;
   padding: 20px;
   margin-top: 9px;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
