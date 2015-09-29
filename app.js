@@ -10,6 +10,9 @@ courseRoster.config(function($stateProvider, $urlRouterProvider) {
       'body': {
         templateUrl: "partials/home.html",
       },
+      'footerz': {
+        templateUrl: "partials/footerz.html",
+      },
     }
   });
 
@@ -23,6 +26,9 @@ courseRoster.config(function($stateProvider, $urlRouterProvider) {
         templateUrl: "partials/courses.html",
         controller: 'CoursesCtrl'
       },
+      'footerz': {
+        templateUrl: "partials/footerz.html",
+      },
     }
   });
 
@@ -35,6 +41,9 @@ courseRoster.config(function($stateProvider, $urlRouterProvider) {
       'body': {
         templateUrl: "partials/courses.students.html",
         controller: 'StudentsCtrl'
+      },
+      'footerz': {
+        templateUrl: "partials/footerz.html",
       },
     }
   });
